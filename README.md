@@ -5,33 +5,69 @@
 
 #### 软件架构
 软件架构说明
-
+使用RxJava + Retrofit + MVP开发
 
 #### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
+在apk目录直接下载安装，或者扫码
+![img.png](img.png)
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+类似百度app
 
 #### 参与贡献
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+感谢github上的仿今日头条项目
 
 
 #### 特技
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+# 演示截图
+
+首页
+![](https://raw.githubusercontent.com/chaychan/TouTiaoPics/master/screenshot/home.jpg)
+
+视频
+![](https://raw.githubusercontent.com/chaychan/TouTiaoPics/master/screenshot/video.jpg)
+
+ 微头条
+![](https://raw.githubusercontent.com/chaychan/TouTiaoPics/master/screenshot/micro.jpg)
+
+我的
+![](https://raw.githubusercontent.com/chaychan/TouTiaoPics/master/screenshot/mine.jpg)
+
+
+ gif图
+
+ 新闻列表、视频列表
+![](https://raw.githubusercontent.com/chaychan/TouTiaoPics/master/screenshot/main.gif)
+
+ 非视频新闻详情页面
+![](https://raw.githubusercontent.com/chaychan/TouTiaoPics/master/screenshot/text_detail.gif)
+
+ 查看和保存图片
+![](https://raw.githubusercontent.com/chaychan/TouTiaoPics/master/screenshot/watch_save_img.gif)
+
+ 视频播放、视频详情页面
+![](https://raw.githubusercontent.com/chaychan/TouTiaoPics/master/screenshot/video_detail.gif)
+
+
+
+
+### 现有功能
+
+1.获取各种频道的新闻列表,包括视频和非视频新闻；
+
+2.查看新闻详情，包括视频和非视频新闻的详情；
+
+3.查看新闻评论列表；
+
+4.新闻数据本地存储，已经获取到的新闻数据保存在本地数据库中，上拉加载更多时可查看历史新闻；
+
+5.底部页签点击下拉刷新;
+
+6.视频列表播放中的视频不可见时停止播放。
+
+7.查看和保存图片。
+
+，请多多斟酌。**诸位勿传播于非技术人员，拒绝用于商业用途，数据均属于非正常渠道获取，原作公司拥有所有权利。**
